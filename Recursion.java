@@ -1,6 +1,9 @@
 public class Recursion {
     public static void main(String[] args) {
-        System.out.println(power(2, 5));
+
+        String s = "appnnacollege";
+        removeDuplicates(s, 0, new StringBuilder(""), new boolean[26]);
+
     }
 
     public static void printDec(int n){
