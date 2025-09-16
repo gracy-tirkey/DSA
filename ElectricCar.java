@@ -1,9 +1,10 @@
-class Automobile {
-    private String drive(){
-        return "Driving Vehicle";
-    } 
-}
-class Car extends Automobile{
+// class Automobile {
+//     private String drive(){
+//         return "Driving Vehicle";
+//     } 
+// }
+// public class Car extends Automobile {
+class Car{
     protected String drive(){
         return "Driving Car";
     }
@@ -20,6 +21,7 @@ public class ElectricCar extends Car{
         System.out.println(car.drive());
 
         // Automobile a = new Car();
+        
         // System.out.println(a.drive()); //Error
     }
 }
